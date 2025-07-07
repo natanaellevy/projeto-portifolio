@@ -23,7 +23,7 @@ nav a {
     padding: 10px;
 }
 
-/* Quando passar o cursor por cima ele ira alterar o cor de fundo do link do menu*/
+/* Quando passar o cursor por cima ele irá alterar a cor de fundo do link do menu*/
 nav a:hover {
     color: #fff;
     margin: 0 15px;
