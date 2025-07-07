@@ -20,6 +20,15 @@ nav a {
     color: #fff;
     margin: 0 15px;
     text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    background-color: #4b4b4b;
+    padding: 10px;
 }
 
 /* Área principal de conteúdo */
