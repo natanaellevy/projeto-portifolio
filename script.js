@@ -13,7 +13,7 @@ function carregar(pagina) {
             // Exibe mensagem de erro caso a página não seja encontrada
             document.getElementById('conteudo').innerHTML = `<p>Erro: ${err.message}</p>`;
         });
-  }
+}
   
 // Ao carregar o site, exibe a página "sobre" por padrão
 window.onload = () => carregar('sobre');
