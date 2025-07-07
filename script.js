@@ -1,4 +1,3 @@
-// Função para carregar os conteúdos das páginas
 function carregar(pagina) {
     fetch(pagina + '.html')
       .then(res => {
@@ -13,6 +12,7 @@ function carregar(pagina) {
       });
   }
   
-  // Carrega automaticamente a página inicial
+  // Carrega a primeira página ao abrir
   window.onload = () => carregar('sobre');
+  
   
